@@ -26,5 +26,6 @@ An SQL Employee Tracker
 
 ## Instructions
 - npm i and node index
+- https://drive.google.com/file/d/1fQDwUrfU9thf_DqRMfLUi2_GAmvj6Lpc/view
 
   
