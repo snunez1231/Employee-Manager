@@ -28,31 +28,31 @@ function askUser() {
     ])
     .then((answer) => {
       switch (answer.chooseRole) {
-        case "view all departments":
+        case "View All Departments":
           viewAllDepartment();
           break;
-        case "view all roles":
+        case "View All Roles":
           viewAllRole();
           break;
-        case "view all employees":
+        case "View All Employees":
           viewAllEmployee();
           break;
-        case "add a department":
+        case "Add Department":
           addDepartment();
           break;
-        case "add a role":
+        case "Add Role":
           addRole();
           break;
-        case "add an employee":
+        case "Add Employee":
           addEmployee();
           break;
-        case "delete an employee":
+        case "Delete Employee":
           deleteEmployee();
           break;
-        case "update an employee role":
+        case "Update Employee":
           updateEmployee();
           break;
-        case "finish":
+        case "Finish":
           console.log("Good Bye");
           process.exit();
         

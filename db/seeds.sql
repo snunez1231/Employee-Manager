@@ -1,5 +1,5 @@
 
-use company_data;
+use employees;
 
 INSERT INTO department
     (name)
